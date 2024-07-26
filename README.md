@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+maxViewBufferIndex = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-max-view-buffer-index@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-base-max-view-buffer-index/tags). For example,
+
+```javascript
 maxViewBufferIndex = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-max-view-buffer-index@v0.2.2-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var maxViewBufferIndex = require( 'path/to/vendor/umd/strided-base-max-view-buff
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-max-view-buffer-index@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-max-view-buffer-index@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -117,7 +122,7 @@ var idx = maxViewBufferIndex( 3, 2, 10 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-max-view-buffer-index@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-max-view-buffer-index@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
